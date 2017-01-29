@@ -1,0 +1,19 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ]
+  },
+  "watch": [
+    "templates/**/*.php",
+    "src/**/*.php"
+  ],
+  "publicPath": "/wp-content/themes/tgomez",
+  "devUrl": "http://localhost/thibault_gomez/",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]"
+}
